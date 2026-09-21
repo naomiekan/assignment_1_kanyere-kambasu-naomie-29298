@@ -116,11 +116,10 @@ It displays the order ID, customer name, city, and order date.
 **Business interpretation:**
 The supermarket can use this information to know which customer placed each order and where the customer is located.
 
+
 **Screenshot:**
 
-Add the screenshot here:
-
-`join1_orders_customers.png`
+![JOIN 1 Result](screenshots/join1_orders_customers.png)
 
 ### JOIN 2 — Order Items and Products
 
@@ -130,12 +129,8 @@ It displays the product name, category, price, and quantity.
 
 **Business interpretation:**
 The supermarket can see which products were purchased, the quantity purchased, and the price and category of each product.
-
 **Screenshot:**
-
-Add the screenshot here:
-
-`join2_order_items_products.png`
+![JOIN 2 Result](screenshots/join2_order_items_products.png)
 
 ### JOIN 3 — Customers and Orders Using LEFT JOIN
 
@@ -147,10 +142,7 @@ Alice Ingabire is included even though she has no order. Her order information a
 The supermarket can identify customers who have not placed orders and may use this information for customer follow-up or promotional activities.
 
 **Screenshot:**
-
-Add the screenshot here:
-
-`join3_left_join.png`
+![JOIN 3 Result](screenshots/join3_left_join.png)
 
 ## 7. CTE Query — Customers Above Average Spending
 
@@ -167,9 +159,7 @@ The supermarket can identify high-spending customers and use this information fo
 
 **Screenshot:**
 
-Add the screenshot here:
-
-`cte_above_average.png`
+![CTE Result](screenshots/cte_above_average.png)
 
 ## 8. Window Functions
 
@@ -182,9 +172,7 @@ The supermarket can identify customers who contribute the most revenue.
 
 **Screenshot:**
 
-Add the screenshot here:
-
-`window1_customer_ranking.png`
+![Window Function 1 Result](screenshots/window1_customer_ranking.png)
 
 ### Window Function 2 — Number of Orders per Customer
 
@@ -196,10 +184,7 @@ The `ROW_NUMBER()` function numbers each customer's orders according to the orde
 The supermarket can understand the sequence of purchases made by each customer.
 
 **Screenshot:**
-
-Add the screenshot here:
-
-`window2_order_number.png`
+![Window Function 2 Result](screenshots/window2_order_number.png)
 
 ### Window Function 3 — Running Revenue
 
@@ -210,9 +195,7 @@ The supermarket can monitor how total revenue increases over the selected period
 
 **Screenshot:**
 
-Add the screenshot here:
-
-`window3_running_revenue.png`
+![Window Function 3 Result](screenshots/window3_running_revenue.png)
 
 ### Window Function 4 — Days Between Orders
 
@@ -226,10 +209,7 @@ Only customers with more than one order are included.
 The supermarket can understand how frequently customers return and place new orders.
 
 **Screenshot:**
-
-Add the screenshot here:
-
-`window4_days_between_orders.png`
+![Window Function 4 Result](screenshots/window4_days_between_orders.png)
 
 ## 9. Challenges and Solutions
 
